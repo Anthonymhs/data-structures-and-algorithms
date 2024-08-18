@@ -125,7 +125,7 @@ const createList = (availableItems) => {
   const listaDeCompras = [];
   availableItems.forEach(element => {
     if(element.available) {
-      listaDeCompras.push(element,name);
+      listaDeCompras.push(element.name);
     }
   });
   return listaDeCompras;
